@@ -5,9 +5,9 @@ defmodule Script do
     do: File.read!(file_name) |> String.split("\n") |> Enum.map(&String.trim(&1))
 
   def main() do
-    verbs = to_wordlist("verblist.txt")
-    nouns = to_wordlist("nounlist.txt")
-    adjectives = to_wordlist("adjectivelist.txt")
+    verbs = to_wordlist("verbs.txt")
+    nouns = to_wordlist("nouns.txt")
+    adjectives = to_wordlist("adjectives.txt")
 
     IO.puts("#{Enum.random(adjectives)} #{Enum.random(nouns)} #{Enum.random(verbs)} #{Enum.random(adjectives)} #{Enum.random(nouns)}")
   end
