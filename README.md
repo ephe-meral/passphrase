@@ -1,4 +1,4 @@
-_Forked from [aaronbassett/Pass-phrase](aaronbassett/Pass-phrase) - I added the few lines of (feature incomplete!) Elixir to generate the passphrase based on Aaron's ideas and text files. To run, install elixir (e.g. via [kiex](https://taylor.github.io/kiex/)) and run `./passphrase.exs` which outputs the pass phrase to stdio. Have fun! Rest of this file is authored by Aaron._
+_Forked from [aaronbassett/Pass-phrase](https://github.com/aaronbassett/Pass-phrase) - I added the few lines of (feature incomplete!) Elixir to generate the passphrase based on Aaron's ideas and text files. To run, install elixir (e.g. via [kiex](https://taylor.github.io/kiex/)) and run `./passphrase.exs` which outputs the pass phrase to stdio. Have fun! Rest of this file is authored by Aaron._
 
 # Generate a random pass phrase
 
